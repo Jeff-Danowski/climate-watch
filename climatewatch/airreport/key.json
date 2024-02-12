@@ -1,0 +1,14 @@
+{
+    "type": "service_account",
+    "project_id": "jeff-danowski-climate-watch",
+    "private_key_id": "014e6fc887b24a6b6f5d67e8b84040d9559592fb",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDU8iM8G0f4lTSy\n687Qmh1Jf8RVwlX/nlsAcBilKzZXgMQo3GhRdvPNuPxTyaQSNLXHnUtsTQ/p28DK\nOI8L8zJJ/FUn0a/EA8ep7vDc8bNCwuN8VQUi2fWwJKDpVZhUx8JEIGAL6+6BCFdJ\n4E3HQrzlu5e02w/2zc20obSCLWtlcS9IPgLJ215Metk1XSKl5vrpwyCFeBf17lQ+\niwJLHSHz8SiGSB5GS61oRWipCoUi8NYuo5At5y16ujYnsttWNdRYSDzGajDmnT+U\nFUARepjDmq+pWmz9P5E6WevjsSv3jxV+C+mLZFiQUYfvgQrnp+fbxZYH65Pmv7dx\nCrISVaVlAgMBAAECggEAW2Nnl74ljxuJuFfXNFNPymFZA20Zt1BgwblZ+linQ7px\ndQ/SfVPNojaHo/Xfwih48yggXGReNgEnpiHL0lcW+AWhDivBgSAWKmnvWQMp6bb2\nJj/eqmxcMrIllL41V/069D3ounUQsLPBsmTfPGr54qY1n1p8aXE9nQ3hCBUyCCBY\npEA+l4TlEumsTTqeXaSUDlvdDHo3V/IAc8Tpe22ex0TJGf7K5JkAGbMSzOHtX4wv\nqxTyX/pcb6IyTxuxqhflM+3xS6COXsQWA2obUeWMeYrp2UCUHO4YZqW+66hIsrwy\nMNPZbr4jZAJcyvKLw1pkjLkX5CpFFMswhNWwbKXPqQKBgQDxU2OBk2wbrkWhq+jI\n08ihJtVBfjiCksvaGseYFRMvF66hw3SddBxxjCv+eJOeCY2mD7jkKNm36FSuydSa\n2PO0TPqvNnZ7ug/593vbWW8dknwYhiDZ1L8cwSWRAHYZNP+95/igC50zNp5WwZq/\ncvfrr7e+wlsTUp6Lv1mp4z3d4wKBgQDh5PjFHW1hPRDMXOts81mf+7B5pfStMkNw\nyPf1NlHxXA3zUkXn7tHu2fDHhUTy/bQXwKbeJQMBqxfohtOhzwik3FOj3apUBssD\nGX6N6gGhLFsM/Mr0xX1LKYsZnT6Qr0F533RY7jlo8JNGB2eSV6H8uetky3haSU87\nh/wXzLxSFwKBgQCkGdVfZnUsOYxmDLVF4yXZ18NKPt+EgvgV/wHcu/AIpOz+WR/y\ndeNlnzDHYQzYeZyV4LkUhWbPdTAoj1yAU6kc4P/Sp5FYP0Tf8NeLaDxz+oliT8sE\n9XNjxT+bY5nrOCvz4ksh4ePq0GhJjGuDZlWKMjobgKRX9mWTl/IL4VfPiwKBgCks\nG6+Juorzn2EwOnTEMfy32iWB+wOqWqJu7srR2MOeHKjRwQ4R+E+Jh5pGDxge57lA\nkumAY3jlX1kxYddnLdMmmVQPreDc0BnDhs6E7UEcHYhTdwaADGMrsj+76lBisRNu\nh/1BhlM7Lgyggt8oe8zdcisP7uK94+Qc1/TaiySHAoGBAKqq3wJQEuQX40jQylBd\nKzx0//08NsuQXO6fgZVkXkuUnYtTpn3Dxar53PaShjPtGMxzb3R1MAv01Ru9MngX\n+ydlw/slY0qyhjTQ3jAWk5REZQMCyC/je5w7FkgZBe3HUFUoXebE7ib2TeWL235T\n07UkAmP4L2+IZOJ+MNsSV0B0\n-----END PRIVATE KEY-----\n",
+    "client_email": "jeff-danowski@jeff-danowski-climate-watch.iam.gserviceaccount.com",
+    "client_id": "100702014059006170970",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/jeff-danowski%40jeff-danowski-climate-watch.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+  

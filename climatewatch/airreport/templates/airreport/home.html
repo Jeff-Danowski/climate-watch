@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Welcome to the Air Report!</title>
+   {{ map.header.render|safe }}
+</head>
+<body>
+<div><h1>Air Report</h1></div>
+<div>
+   <a href = "{% url 'add_sensor' %}" style ="display: inherit; 
+                                       text-align: center; 
+                                       border-radius: 15px; 
+                                       text-decoration: none; 
+                                       color: inherit; 
+                                       padding: 4px; 
+                                       background-color: lightgreen;">+ Add New Sensor</a>
+</div>
+
+<div>
+   <div>
+      {{map|safe}}
+   </div>
+</div>   
+<script>
+
+   {{ map|safe}}
+
+</script>
+
+<div>
+   <table class = "sensor_table">
+      <thead>
+         <tr>
+            <th>Id</th>
+            <th>IP Address</th>
+            <th>Temperature</th>
+            <th>Humidity</th>
+            <th>Air Quality</th>
+         </tr>
+      </thead>
+      <tbody>
+         {% for sensor in sensors %}
+            <tr>
+               <td>{{ sensor.id }}</td>
+               <td>{{ sensor.ip_address }}</td>
+               <td>{{ sensor.temp }}</td>
+               <td>{{ sensor.humidity }}</td>
+               <td>{{ sensor.airquaility }}</td>
+            </tr>
+         {% endfor %}
+      </tbody>
+   </table>
+</div>
+
+
+</body>
+</html>
