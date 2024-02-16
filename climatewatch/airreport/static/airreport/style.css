@@ -1,0 +1,59 @@
+body {
+    font-family: "Oxygen", sans-serif;
+    background-color: #d3e7ce;
+    margin: 0;
+}
+header {
+    background-color: #d3e7ce;
+    align-items: center;
+    padding-left: 40px;
+}
+
+table{
+    align-items: center;
+    border-collapse: collapse;
+}
+
+.header-first-row {
+    width: 100%;
+    display: flex
+}
+
+.title {
+    font-size: 3em;
+    color: #044020;
+}
+
+.sensor_table {
+    background-color: #d3e7ce;
+    text-align: center;
+    width: 100%;
+    border: 2px solid black
+}
+
+.sensor-info {
+    text-align: center;
+    width: 100%;
+    background-color: #d3e7ce;
+}
+
+main table {
+    text-align: center;
+    width: 100%;
+}
+
+main form input[type="submit"] {
+    width: max-content;
+  }
+  
+  main form * {
+    display: block;
+  }
+  
+  main form label {
+    font-size: 1em;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+  
+

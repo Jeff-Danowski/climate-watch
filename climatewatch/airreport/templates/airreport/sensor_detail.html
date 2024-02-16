@@ -1,0 +1,64 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <link
+         rel="stylesheet"
+         type="text/css"
+         href="{% static 'airreport/style.css' %}"
+      />
+      <title>Welcome to the Air Report!</title>
+   </head>
+   <body>
+      <div class = "app">
+         <header>
+            <div class="header-first-row">
+               <img
+                  src="{% static 'airreport/leaf.png' %}"
+                  alt="Air Report Logo"
+                  width="150px"
+               />
+               <h1 class ="title">Climate Watch: Air Report</h1>
+            </div>
+         </header>
+         <div class = 'sensor-info'>
+            <h1 >{{sensor.name}}</h1>
+         </div>
+         <table class = "sensor_table">
+            <thead>
+               <tr>
+                  <th>Id</th>
+                  <th>Location</th>
+                  <th>Temperature</th>
+                  <th>Humidity</th>
+                  <th>PM 1</th>
+                  <th>PM 10</th>
+                  <th>PM 2.5</th>
+                  <th>Time UTC</th>
+               </tr>
+            </thead>
+            <tbody>
+               {% for sensor in sensor_data %}
+                  <tr>
+                     <td>{{ sensor.id }}</td>
+                     <td>[{{ sensor.latitude }}, {{ sensor.longitude }}]</td>
+                     <td>{{ sensor.temp }}</td>
+                     <td>{{ sensor.humidity }}</td>
+                     <td>{{ sensor.airquaility1 }}</td>
+                     <td>{{ sensor.airquaility2 }}</td>
+                     <td>{{ sensor.airquaility3 }}</td>
+                     <td>{{ sensor.timestamp }}</td>
+                  </tr>
+               {% endfor %}
+            </tbody>
+         </table>
+         <!-- <div style="width:1000;height:100"> -->
+            <!-- {{ plot|safe }} -->
+         <!-- </div> -->
+
+ <script src="https://cdn.jsdelivr.net/npm/chart.js@4.2.1/dist/chart.umd.min.js"></script>
+ <canvas id="chart" width = "500" height="500"></canvas>
+
+   </body>
+</html>

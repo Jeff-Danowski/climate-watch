@@ -1,26 +1,46 @@
+{% load static %}
 <!DOCTYPE html>
-<html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <title>Add New Sensor</title>
-</head>
-<body>
-<div><h1>Add New Sensor</h1></div>
-<div>
-    <a href = "{% url 'add_live_sensor' %}" style ="display: inherit; 
-                                        text-align: center; 
-                                        border-radius: 15px; 
-                                        text-decoration: none; 
-                                        color: inherit; 
-                                        padding: 4px; 
-                                        background-color: lightgreen;">+ Add Live Sensor</a>
-    <a href = "{% url 'add_manual_sensor' %}" style ="display: inherit; 
-                                                      text-align: center; 
-                                                      border-radius: 15px; 
-                                                      text-decoration: none; 
-                                                      color: inherit; 
-                                                      padding: 4px; 
-                                                      background-color: lightgreen;">+ Add Manual Sensor</a>
-</div>
-</body>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <link
+         rel="stylesheet"
+         type="text/css"
+         href="{% static 'airreport/style.css' %}"
+      />
+      <title>Welcome to the Air Report!</title>
+   </head>
+   <body>
+      <header>
+         <div class="header-first-row">
+            <img
+               src="{% static 'airreport/leaf.png' %}"
+               alt="Air Report Logo"
+               width="150px"
+            />
+            <h1 class ="title">Climate Watch: Air Report</h1>
+         </div>
+      </header>
+         <div>
+            <h1 class = "sensor-info">
+               Add New Sensor 
+            </h1>
+         </div>
+      <div>
+         <a href = "{% url 'add_live_sensor' %}" style ="display: inherit; 
+                                             text-align: center; 
+                                             border-radius: 15px; 
+                                             text-decoration: none; 
+                                             color: inherit; 
+                                             padding: 4px; 
+                                             background-color: lightgreen;">+ Add Live Sensor Data</a>
+         <a href = "{% url 'add_manual_sensor' %}" style ="display: inherit; 
+                                                            text-align: center; 
+                                                            border-radius: 15px; 
+                                                            text-decoration: none; 
+                                                            color: inherit; 
+                                                            padding: 4px; 
+                                                            background-color: lightgreen;">+ Add Manual Sensor Data</a>
+      </div>
+   </body>
 </html>
