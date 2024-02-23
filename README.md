@@ -1,5 +1,22 @@
 # Climate-watch
 
+## Background
+This project was completed as part of the Software Stacks in Climate Tech program with Terra.do.  IoT devices were used to monitor localized temperature, humidity and airquaility and its geospatiial data was desplayed on maps. 
+
+## Software and Hardware Used
+
+### Software
+  - Python
+  - Django
+  - SQLite
+  - Folium
+  - Google Earth Engine
+
+### Hardware
+  - Adafruit ESP32-S2 TFT Feather
+  - Adafruit BME280
+  - Adafruit PMSA003I
+
 ## Setup
 
 ### Hardware
